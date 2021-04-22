@@ -1,0 +1,13 @@
+.grid {
+display: grid;
+grid-template: 
+"head head head" 200px 
+"left main right" 100px 
+"left main right" 100px 
+"foot foot foot" 50px /1fr 2fr 1fr; }
+
+.grid-item1 { grid-area: head; background: lightblue; } 
+.grid-item2 { grid-area: left; background: lightsalmon; } 
+.grid-item3 { grid-area: main; background: lightyellow; }
+.grid-item4 { grid-area: right; background: lightgreen; }
+.grid-item5 { grid-area: foot; background: lightpink; }
